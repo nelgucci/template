@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Alex Brush');
+
+* {
+	box-sizing: border-box;padding: 0;margin: 0;
+}
+
+
+
+body {
+	/*background-color: #D38B5D;*/
+	background-color: grey;
+
+	background-image: url("../images/bg-pattern.gif");
+
+
+}
+
+h2 {
+	/*background-color: darkblue;*/
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+nav ul {
+	background-color: white;
+	list-style: none;/*removes the dot*/
+	padding: 0px;  /*if 4 values are entered: top right bottom left*/
+	overflow: auto;
+}
+
+nav li {
+
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	transition: 1s
+	
+}
+
+nav a {
+	color: #739E82;
+	font-family: cursive;
+	text-decoration: none;
+	font-size: 20px;
+	transition: .5s;
+}
+
+nav a:hover{
+	text-transform: uppercase;
+	color: #2C5530;
+
+}
+
+nav li:hover{
+	background-color: #F3FFB6;
+}
+
+
+
+.header {  /*targets the class created within the html file*/
+	padding: 80px 20px;
+	background-image: url("../images/world.jpg");
+	background-size: cover;
+	background-position: center;
+	
+}
+
+h1 {
+	padding: 20px;
+	text-align: center;
+	font-family: cursive;
+	font-size: 50px;
+	color: #ffffff;
+}
+
